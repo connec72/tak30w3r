@@ -48,19 +48,16 @@ try:
             dosya = input("\033[0;31m[\033[0;33m*\033[0;31m]> \033[0;32m\033[1mDosya İsmi: ")
 
             os.system("subfinder -d {} -o {}".format(site,dosya))
-            print(menu)
         
         elif (islem == "2"):
             dosya = input("\033[0;31m[\033[0;33m*\033[0;31m]> \033[0;32m\033[1mDosya İsmi: ")
 
             os.system("subjack -w {} -v --ssl".format(dosya))
-            print(menu)
 
         elif (islem == "3"):
             dosya = input("\033[0;31m[\033[0;33m*\033[0;31m]> \033[0;32m\033[1mDosya İsmi: ")
 
             os.system("subzy --targets {}".format(dosya))
-            print(menu)
         elif (islem == "m"):
             print(menu)
         else:
