@@ -1,4 +1,3 @@
-# turkhackteam.org/net
 # Coded By Connec
 import os
 import time
