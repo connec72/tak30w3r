@@ -1,4 +1,3 @@
-# turkhackteam.org/net
 # Coded By Connec
 
 from termcolor import colored
@@ -29,7 +28,7 @@ menu = (colored('''
                                  \~ | V                            
                                   \  |                                        
                                    VV
-                                        tak30w3r| coded by connec | turkhackteam.org
+                                           tak30w3r| coded by connec 
 
 \033[0;31m[\033[0;33m1\033[0;31m]> \033[0;32m\033[1mSubdomain Çekme
 \033[0;31m[\033[0;33m2\033[0;31m]> \033[0;32m\033[1mTakeover Tespit (subjack)
@@ -67,12 +66,3 @@ except KeyboardInterrupt:
 Çıkış Yapılıyor...
                 """)
      exit()
-
-
-
-
-    
-
-
-    
-   
